@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,7; 
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+header{
+    background-image: url(img/foguinho.png);
+    background-size: 500px 500px;
+    color: #ffffff;
+    padding: 45px 0;
+    text-align: center;
+   
+}
+
+h1 {
+    font-size: 500%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff ;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+main {
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+form {
+    width: 100%; 
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 10px; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 20px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff; 
+    color: #000000; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #ff5722; 
+}
+
+button {
+    width: 106%; 
+    padding: 15px;
+    background-color: #ff5722; 
+    color: white;
+    border: 1px solid #ffffff; 
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: #e64a19; 
+}
+
+h2 {
+    color: #fffdfd;
+    text-align: center;
+    font-size: 2.8em;
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e6dcdc;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: center;
+}

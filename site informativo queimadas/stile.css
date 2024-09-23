@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,7; 
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+header{
+    background-image: url(img/foguinho.png);
+    background-size: 500px 500px;
+    color: #ffffff;
+    padding:100px 0;
+    text-align: center;
+   
+}
+
+h1 {
+    font-size: 500%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    font-size: 150%;
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff ;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+  
+main {
+    padding: 50px;
+    max-width: 950%;
+    margin: auto;
+    display: flex;
+}
+
+section {
+    display: flexbox;
+    margin-left:50px;
+    padding: 50px;    
+}
+
+h2 {
+    font-display: auto;
+    margin-left: 0px;
+    font-size: 300%;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 200%;
+
+}
+
+h3 {
+    font-size: 200%;
+}
+
+img {
+    background-size: 5px;
+    padding: 20px;
+    width: 900px;
+}
+
+footer {
+
+    font-size: 5%;
+}
